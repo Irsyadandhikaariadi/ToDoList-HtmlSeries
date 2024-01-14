@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irsyad To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>My To Do List</h2>
+        <p>Double-click an item to mark it complete</p>
+        <form class="input" id="todoForm">
+            <input type="text" name="todo" id="todo-input" autocomplete="off">
+            <button type="button" class="tambah-btn">Add</button>
+        </form>
+        <ol class="list-todo">
+        </ol>
+        <div class="btn-group">
+            <button class="clear">Clear Completed</button>
+            <button class="empty">Empty List</button>
+            <button class="save">Save List</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

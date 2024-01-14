@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #7360DF;
+    display: flex;
+    justify-content: center;
+    padding-top:5%;
+    font-family: 'Poppins';
+}
+.card{
+    background-color: #C499F3;
+    padding: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+#todo-input{
+    padding: 5px;
+    border-color: #7360DF;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.tambah-btn{
+    padding: 10px 5px 10px 5px ;
+    background-color: rgb(207, 100, 234);
+    border: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.clear, .empty, .save{
+    padding: 10px 10px 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.clear{
+    background-color: gray;
+}
+.empty{
+    background-color: rgb(225, 102, 102);
+}
+.save{
+    background-color: lightskyblue;
+}
+
+.list-todo{
+    cursor: grab;
+}
